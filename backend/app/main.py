@@ -13,6 +13,7 @@ from app.api.routes_corridors import router as corridor_router
 from app.api.routes_alerts import router as alert_router
 from app.api.routes_simulation import router as simulation_router
 from app.api.routes_incidents import router as incident_router
+from app.api.routes_telecom_and_whatsapp import router as telecom_whatsapp_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -35,6 +36,7 @@ app.include_router(corridor_router, prefix=settings.API_PREFIX)
 app.include_router(alert_router, prefix=settings.API_PREFIX)
 app.include_router(simulation_router, prefix=settings.API_PREFIX)
 app.include_router(incident_router, prefix=settings.API_PREFIX)
+app.include_router(telecom_whatsapp_router, prefix=settings.API_PREFIX)
 
 @app.get("/")
 def root_status():
