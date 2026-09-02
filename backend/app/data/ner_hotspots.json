@@ -1,0 +1,312 @@
+[
+  {
+    "id": "NER-MEG-001",
+    "name": "Sonapur Tunnel Sector (NH-6)",
+    "state": "Meghalaya",
+    "district": "East Jaintia Hills",
+    "coordinates": {"latitude": 25.1189, "longitude": 92.3683},
+    "terrain": {
+      "slope_deg": 44.5,
+      "elevation_m": 820.0,
+      "aspect": "South-East",
+      "lithology": "Unconsolidated Sandstone & Fragile Shale",
+      "lithology_risk_factor": 0.88,
+      "distance_to_fault_m": 420.0,
+      "distance_to_cut_slope_m": 12.0,
+      "deforestation_index": 0.65
+    },
+    "weather": {
+      "temperature": 21.5,
+      "humidity": 94.0,
+      "rainfall_24h": 145.0,
+      "rainfall_48h": 220.0,
+      "rainfall_72h": 295.0,
+      "soil_moisture_pct": 92.5,
+      "wind_speed": 18.0,
+      "station_id": "IMD-AWS-MEG-01"
+    },
+    "highway_corridor": "NH-6",
+    "road_chainage": "KM 142.5 (Silchar Lifeline)",
+    "historical_events_count": 24,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-SIK-001",
+    "name": "Melli - Teesta Valley (NH-10)",
+    "state": "Sikkim",
+    "district": "Pakyong",
+    "coordinates": {"latitude": 27.0987, "longitude": 88.4612},
+    "terrain": {
+      "slope_deg": 48.0,
+      "elevation_m": 650.0,
+      "aspect": "West",
+      "lithology": "Gneissic Colluvium & Debris Bed",
+      "lithology_risk_factor": 0.92,
+      "distance_to_fault_m": 310.0,
+      "distance_to_cut_slope_m": 8.0,
+      "deforestation_index": 0.72
+    },
+    "weather": {
+      "temperature": 19.0,
+      "humidity": 91.0,
+      "rainfall_24h": 128.0,
+      "rainfall_48h": 190.0,
+      "rainfall_72h": 260.0,
+      "soil_moisture_pct": 89.0,
+      "wind_speed": 15.0,
+      "station_id": "IMD-AWS-SIK-02"
+    },
+    "highway_corridor": "NH-10",
+    "road_chainage": "KM 34.0 (Siliguri-Gangtok Corridor)",
+    "historical_events_count": 31,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-NAG-001",
+    "name": "Dzüdza Bridge / Kohima Slope (NH-29)",
+    "state": "Nagaland",
+    "district": "Kohima",
+    "coordinates": {"latitude": 25.6747, "longitude": 94.0722},
+    "terrain": {
+      "slope_deg": 41.0,
+      "elevation_m": 1440.0,
+      "aspect": "South-West",
+      "lithology": "Disraj Group Siltstone & Clayey Soil",
+      "lithology_risk_factor": 0.82,
+      "distance_to_fault_m": 580.0,
+      "distance_to_cut_slope_m": 14.0,
+      "deforestation_index": 0.58
+    },
+    "weather": {
+      "temperature": 18.5,
+      "humidity": 88.0,
+      "rainfall_24h": 95.0,
+      "rainfall_48h": 155.0,
+      "rainfall_72h": 210.0,
+      "soil_moisture_pct": 84.0,
+      "wind_speed": 14.0,
+      "station_id": "IMD-AWS-NAG-01"
+    },
+    "highway_corridor": "NH-29",
+    "road_chainage": "KM 88.2 (Dimapur-Kohima-Imphal)",
+    "historical_events_count": 19,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-MAN-001",
+    "name": "Tupul Railway Yard & Noney Hills",
+    "state": "Manipur",
+    "district": "Noney",
+    "coordinates": {"latitude": 24.7891, "longitude": 93.6341},
+    "terrain": {
+      "slope_deg": 46.5,
+      "elevation_m": 580.0,
+      "aspect": "East",
+      "lithology": "Soft Disang Shale & Colluvial Slopes",
+      "lithology_risk_factor": 0.95,
+      "distance_to_fault_m": 250.0,
+      "distance_to_cut_slope_m": 6.0,
+      "deforestation_index": 0.80
+    },
+    "weather": {
+      "temperature": 23.0,
+      "humidity": 93.0,
+      "rainfall_24h": 110.0,
+      "rainfall_48h": 185.0,
+      "rainfall_72h": 270.0,
+      "soil_moisture_pct": 94.0,
+      "wind_speed": 16.0,
+      "station_id": "IMD-AWS-MAN-03"
+    },
+    "highway_corridor": "NH-37",
+    "road_chainage": "KM 52.0 (Jiribam-Imphal Highway)",
+    "historical_events_count": 28,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-ASM-001",
+    "name": "Dima Hasao - Jatinga Valley",
+    "state": "Assam",
+    "district": "Dima Hasao",
+    "coordinates": {"latitude": 25.1215, "longitude": 93.0384},
+    "terrain": {
+      "slope_deg": 38.0,
+      "elevation_m": 720.0,
+      "aspect": "North-East",
+      "lithology": "Tertiary Sandstone & Weathered Clays",
+      "lithology_risk_factor": 0.78,
+      "distance_to_fault_m": 670.0,
+      "distance_to_cut_slope_m": 18.0,
+      "deforestation_index": 0.62
+    },
+    "weather": {
+      "temperature": 24.5,
+      "humidity": 86.0,
+      "rainfall_24h": 75.0,
+      "rainfall_48h": 130.0,
+      "rainfall_72h": 180.0,
+      "soil_moisture_pct": 79.0,
+      "wind_speed": 12.0,
+      "station_id": "IMD-AWS-ASM-04"
+    },
+    "highway_corridor": "NH-54E",
+    "road_chainage": "KM 65.0 (Lumding-Silchar Hill Section)",
+    "historical_events_count": 22,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-ARU-001",
+    "name": "Bhalukpong - Tipi Escarpment (NH-13)",
+    "state": "Arunachal Pradesh",
+    "district": "West Kameng",
+    "coordinates": {"latitude": 27.0211, "longitude": 92.6244},
+    "terrain": {
+      "slope_deg": 52.0,
+      "elevation_m": 940.0,
+      "aspect": "South",
+      "lithology": "Siwalik Sandstone & Fractured Phyllite",
+      "lithology_risk_factor": 0.90,
+      "distance_to_fault_m": 380.0,
+      "distance_to_cut_slope_m": 10.0,
+      "deforestation_index": 0.70
+    },
+    "weather": {
+      "temperature": 20.0,
+      "humidity": 90.0,
+      "rainfall_24h": 105.0,
+      "rainfall_48h": 165.0,
+      "rainfall_72h": 240.0,
+      "soil_moisture_pct": 86.5,
+      "wind_speed": 20.0,
+      "station_id": "IMD-AWS-ARU-01"
+    },
+    "highway_corridor": "NH-13",
+    "road_chainage": "KM 26.5 (Tawang Defense Corridor)",
+    "historical_events_count": 26,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-MIZ-001",
+    "name": "Hunthar Veng / Aizawl Escarpment",
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "coordinates": {"latitude": 23.7381, "longitude": 92.7092},
+    "terrain": {
+      "slope_deg": 43.0,
+      "elevation_m": 1080.0,
+      "aspect": "North-West",
+      "lithology": "Surma Group Interbedded Siltstone",
+      "lithology_risk_factor": 0.80,
+      "distance_to_fault_m": 510.0,
+      "distance_to_cut_slope_m": 16.0,
+      "deforestation_index": 0.68
+    },
+    "weather": {
+      "temperature": 22.0,
+      "humidity": 87.0,
+      "rainfall_24h": 82.0,
+      "rainfall_48h": 140.0,
+      "rainfall_72h": 195.0,
+      "soil_moisture_pct": 82.0,
+      "wind_speed": 13.0,
+      "station_id": "IMD-AWS-MIZ-01"
+    },
+    "highway_corridor": "NH-54",
+    "road_chainage": "KM 12.0 (Aizawl-Lengpui Airport Road)",
+    "historical_events_count": 17,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-TRI-001",
+    "name": "Baramura Hill Range Pass",
+    "state": "Tripura",
+    "district": "Khowai",
+    "coordinates": {"latitude": 23.8821, "longitude": 91.5642},
+    "terrain": {
+      "slope_deg": 29.0,
+      "elevation_m": 310.0,
+      "aspect": "East",
+      "lithology": "Unconsolidated Clay Sandstone",
+      "lithology_risk_factor": 0.55,
+      "distance_to_fault_m": 920.0,
+      "distance_to_cut_slope_m": 25.0,
+      "deforestation_index": 0.40
+    },
+    "weather": {
+      "temperature": 26.0,
+      "humidity": 78.0,
+      "rainfall_24h": 38.0,
+      "rainfall_48h": 65.0,
+      "rainfall_72h": 85.0,
+      "soil_moisture_pct": 62.0,
+      "wind_speed": 10.0,
+      "station_id": "IMD-AWS-TRI-01"
+    },
+    "highway_corridor": "NH-8",
+    "road_chainage": "KM 45.0 (Agartala-Silchar Highway)",
+    "historical_events_count": 8,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-MEG-002",
+    "name": "Cherrapunji - Sohra Escarpment",
+    "state": "Meghalaya",
+    "district": "East Khasi Hills",
+    "coordinates": {"latitude": 25.2702, "longitude": 91.7323},
+    "terrain": {
+      "slope_deg": 46.0,
+      "elevation_m": 1430.0,
+      "aspect": "South",
+      "lithology": "Limestone Karst & Fractured Sandstone",
+      "lithology_risk_factor": 0.85,
+      "distance_to_fault_m": 610.0,
+      "distance_to_cut_slope_m": 20.0,
+      "deforestation_index": 0.52
+    },
+    "weather": {
+      "temperature": 18.0,
+      "humidity": 98.0,
+      "rainfall_24h": 180.0,
+      "rainfall_48h": 290.0,
+      "rainfall_72h": 410.0,
+      "soil_moisture_pct": 96.0,
+      "wind_speed": 22.0,
+      "station_id": "IMD-AWS-MEG-02"
+    },
+    "highway_corridor": "SH-5",
+    "road_chainage": "KM 28.0 (Shillong-Sohra Scenic Highway)",
+    "historical_events_count": 21,
+    "last_updated": "2026-09-02T13:30:00Z"
+  },
+  {
+    "id": "NER-SIK-002",
+    "name": "Chungthang - Lachen Valley Corridor",
+    "state": "Sikkim",
+    "district": "Mangan",
+    "coordinates": {"latitude": 27.6041, "longitude": 88.6473},
+    "terrain": {
+      "slope_deg": 50.5,
+      "elevation_m": 1790.0,
+      "aspect": "North",
+      "lithology": "Glacio-fluvial Moraine & Quartzite",
+      "lithology_risk_factor": 0.94,
+      "distance_to_fault_m": 190.0,
+      "distance_to_cut_slope_m": 5.0,
+      "deforestation_index": 0.75
+    },
+    "weather": {
+      "temperature": 14.0,
+      "humidity": 92.0,
+      "rainfall_24h": 135.0,
+      "rainfall_48h": 210.0,
+      "rainfall_72h": 310.0,
+      "soil_moisture_pct": 95.0,
+      "wind_speed": 17.0,
+      "station_id": "IMD-AWS-SIK-03"
+    },
+    "highway_corridor": "NH-310A",
+    "road_chainage": "KM 62.0 (North Sikkim Border Highway)",
+    "historical_events_count": 35,
+    "last_updated": "2026-09-02T13:30:00Z"
+  }
+]

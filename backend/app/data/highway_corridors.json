@@ -1,0 +1,87 @@
+[
+  {
+    "id": "COR-NH-06",
+    "corridor_name": "NH-6 (Guwahati - Shillong - Jowai - Silchar Lifeline)",
+    "highway_number": "NH-6",
+    "from_city": "Shillong, Meghalaya",
+    "to_city": "Silchar, Assam",
+    "start_chainage_km": 0.0,
+    "end_chainage_km": 218.0,
+    "coordinates_path": [
+      [25.5788, 91.8933],
+      [25.4520, 92.2045],
+      [25.1832, 92.3421],
+      [25.1189, 92.3683],
+      [24.9540, 92.5830],
+      [24.8333, 92.7789]
+    ],
+    "vulnerability_score": 88.5,
+    "status": "HIGH_RISK_WATCH",
+    "blockage_probability": 0.82,
+    "detour_advisory": "Heavy vehicles advised to hold at Ladrymbai; Light vehicles diverted via Umrangso-Haflong alternate route.",
+    "patrol_unit": "BRO Project Sewak / NHIDCL Unit 04"
+  },
+  {
+    "id": "COR-NH-10",
+    "corridor_name": "NH-10 (Sevoke - Teesta - Gangtok Lifeline)",
+    "highway_number": "NH-10",
+    "from_city": "Siliguri, West Bengal",
+    "to_city": "Gangtok, Sikkim",
+    "start_chainage_km": 0.0,
+    "end_chainage_km": 114.0,
+    "coordinates_path": [
+      [26.7271, 88.3953],
+      [26.8920, 88.4720],
+      [27.0987, 88.4612],
+      [27.1850, 88.5120],
+      [27.3389, 88.6065]
+    ],
+    "vulnerability_score": 91.0,
+    "status": "CRITICALLY_BLOCKED",
+    "blockage_probability": 0.89,
+    "detour_advisory": "Road submerged & debris flow at 29th Mile. Divert via Lava - Gorubathan - Damdim or Pakyong airport link.",
+    "patrol_unit": "BRO Project Swastik"
+  },
+  {
+    "id": "COR-NH-29",
+    "corridor_name": "NH-29 (Dimapur - Kohima - Maram - Imphal)",
+    "highway_number": "NH-29",
+    "from_city": "Dimapur, Nagaland",
+    "to_city": "Imphal, Manipur",
+    "start_chainage_km": 0.0,
+    "end_chainage_km": 204.0,
+    "coordinates_path": [
+      [25.9068, 93.7275],
+      [25.7510, 93.9210],
+      [25.6747, 94.0722],
+      [25.3200, 94.0150],
+      [24.8170, 93.9368]
+    ],
+    "vulnerability_score": 79.0,
+    "status": "ONE_LANE_TRAFFIC",
+    "blockage_probability": 0.68,
+    "detour_advisory": "Single lane operational at Dzüdza bridge due to slope subsidence. Night transit restricted for heavy carriers.",
+    "patrol_unit": "BRO Project Sewak / Nagaland PWD (NH)"
+  },
+  {
+    "id": "COR-NH-13",
+    "corridor_name": "NH-13 (Trans-Arunachal Highway / Bhalukpong - Tawang)",
+    "highway_number": "NH-13",
+    "from_city": "Bhalukpong, Arunachal Pradesh",
+    "to_city": "Tawang, Arunachal Pradesh",
+    "start_chainage_km": 0.0,
+    "end_chainage_km": 320.0,
+    "coordinates_path": [
+      [27.0211, 92.6244],
+      [27.1640, 92.4210],
+      [27.3620, 92.2450],
+      [27.5140, 92.0850],
+      [27.5860, 91.8590]
+    ],
+    "vulnerability_score": 74.0,
+    "status": "PASSABLE",
+    "blockage_probability": 0.54,
+    "detour_advisory": "Clear for all traffic. Caution advised near Sela Tunnel approaches during evening precipitation.",
+    "patrol_unit": "BRO Project Vartak"
+  }
+]
