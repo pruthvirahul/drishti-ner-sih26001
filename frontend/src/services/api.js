@@ -1,4 +1,4 @@
-import axios from 'axios';
+﻿import axios from 'axios';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api';
 
@@ -262,36 +262,4 @@ export const syncOfflineIncidents = async () => {
     return [];
   }
 };
-/ /   A d d   t o   e n d   o f   c : \ U s e r s \ u p e n d r a \ O n e D r i v e \ D e s k t o p \ 2 6 0 0 1 \ f r o n t e n d \ s r c \ s e r v i c e s \ a p i . j s  
- e x p o r t   c o n s t   f e t c h V a l i d a t i o n M e t r i c s   =   a s y n c   ( )   = >   {  
-     t r y   {  
-         c o n s t   r e s   =   a w a i t   a p i . g e t ( ' / v 2 / v a l i d a t i o n / m e t r i c s ' ) ;  
-         r e t u r n   r e s . d a t a ;  
-     }   c a t c h   ( e r r )   {  
-         c o n s o l e . e r r o r ( " V 2   M e t r i c s   e r r o r " ,   e r r ) ;  
-         r e t u r n   n u l l ;  
-     }  
- } ;  
-  
- e x p o r t   c o n s t   f e t c h C a l i b r a t e d R i s k   =   a s y n c   ( r a w S c o r e ,   r a i n ,   s l o p e )   = >   {  
-     t r y   {  
-         c o n s t   r e s   =   a w a i t   a p i . g e t ( ' / v 2 / v a l i d a t i o n / c a l i b r a t e ' ,   {  
-             p a r a m s :   {   r a w _ s c o r e :   r a w S c o r e ,   r f _ 7 2 h :   r a i n ,   s l o p e :   s l o p e   }  
-         } ) ;  
-         r e t u r n   r e s . d a t a ;  
-     }   c a t c h   ( e r r )   {  
-         c o n s o l e . e r r o r ( " V 2   C a l i b r a t e   e r r o r " ,   e r r ) ;  
-         r e t u r n   n u l l ;  
-     }  
- } ;  
-  
- e x p o r t   c o n s t   f e t c h E v i d e n c e   =   a s y n c   ( l o c a t i o n N a m e )   = >   {  
-     t r y   {  
-         c o n s t   r e s   =   a w a i t   a p i . g e t ( ' / v 2 / e v i d e n c e ' ,   {   p a r a m s :   {   l o c a t i o n _ n a m e :   l o c a t i o n N a m e   }   } ) ;  
-         r e t u r n   r e s . d a t a ;  
-     }   c a t c h   ( e r r )   {  
-         c o n s o l e . e r r o r ( " V 2   E v i d e n c e   e r r o r " ,   e r r ) ;  
-         r e t u r n   [ ] ;  
-     }  
- } ;  
- 
+export const fetchValidationMetrics = async () => { try { const res = await api.get('/v2/validation/metrics'); return res.data; } catch (err) { console.error("V2 Metrics error", err); return null; } }; export const fetchCalibratedRisk = async (rawScore, rain, slope) => { try { const res = await api.get('/v2/validation/calibrate', { params: { raw_score: rawScore, rf_72h: rain, slope: slope } }); return res.data; } catch (err) { console.error("V2 Calibrate error", err); return null; } }; export const fetchEvidence = async (locationName) => { try { const res = await api.get('/v2/evidence', { params: { location_name: locationName } }); return res.data; } catch (err) { console.error("V2 Evidence error", err); return []; } };
