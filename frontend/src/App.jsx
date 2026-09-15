@@ -8,6 +8,7 @@ import XAIModal from './components/XAIModal';
 import SimulationSandbox from './components/SimulationSandbox';
 import IncidentReportModal from './components/IncidentReportModal';
 import AlertBroadcastCenter from './components/AlertBroadcastCenter';
+import TimelineLogView from './components/TimelineLogView';
 
 import { 
   fetchHotspots, 
@@ -233,6 +234,10 @@ export default function App() {
             hotspots={hotspots}
             corridors={corridors}
           />
+        )}
+
+        {activeTab === 'logs' && (
+          <TimelineLogView />
         )}
       </main>
 

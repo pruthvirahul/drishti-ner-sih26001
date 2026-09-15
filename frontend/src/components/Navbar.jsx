@@ -9,7 +9,8 @@ import {
   WifiOff, 
   RefreshCw,
   Navigation,
-  Activity
+  Activity,
+  History
 } from 'lucide-react';
 import { NER_STATES } from '../utils/constants';
 
@@ -70,6 +71,18 @@ export default function Navbar({
           <div className="text-slate-500 text-[11px] hidden sm:inline">
             MDoNER / SIH26001
           </div>
+          {/* V2 Historical Logs Tab */}
+          <button
+            onClick={() => setActiveTab('logs')}
+            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-medium transition-all ${
+              activeTab === 'logs' 
+                ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30 shadow-[0_0_10px_rgba(168,85,247,0.2)]' 
+                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800 border border-transparent'
+            }`}
+          >
+            <History className="w-4 h-4" />
+            <span className="hidden sm:inline">V2 Logs</span>
+          </button>
         </div>
       </div>
 
