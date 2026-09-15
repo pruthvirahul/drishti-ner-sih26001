@@ -1,6 +1,7 @@
 import React from 'react';
 import { 
   ShieldAlert, 
+  ShieldCheck,
   Layers, 
   Sliders, 
   Radio, 
