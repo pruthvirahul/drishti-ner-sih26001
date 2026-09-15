@@ -9,6 +9,7 @@ import SimulationSandbox from './components/SimulationSandbox';
 import IncidentReportModal from './components/IncidentReportModal';
 import AlertBroadcastCenter from './components/AlertBroadcastCenter';
 import TimelineLogView from './components/TimelineLogView';
+import ValidationDashboard from './components/ValidationDashboard';
 
 import { 
   fetchHotspots, 
@@ -238,6 +239,10 @@ export default function App() {
 
         {activeTab === 'logs' && (
           <TimelineLogView />
+        )}
+
+        {activeTab === 'validation' && (
+          <ValidationDashboard selectedHotspot={selectedHotspot} />
         )}
       </main>
 

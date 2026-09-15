@@ -33,6 +33,11 @@ The **North Eastern Region (NER)** of India experiences extreme seasonal precipi
 6. **Offline Sync & Geotagged Field Reporting:**
    - Specially designed for low-connectivity eastern regions: field officers and commuters can capture geotagged photos and roadblock reports offline; data is cached in IndexedDB/LocalStorage and auto-synced upon reconnecting.
 
+7. **[Version 2] Prediction Evidence & Validation Engine:**
+   - A dedicated subsystem tracking the accuracy of historical predictions against observed ground-truth events.
+   - Calculates confusion matrix metrics (F1, Precision, Recall, FPR) and dynamically calibrates raw AI risk scores into realistic probability percentages.
+   - Fetches live news and official links (IMD, NRSC/NDEM) to serve as external supporting evidence for current risk alerts, ensuring total transparency and accountability.
+
 ---
 
 ## 👥 6-Member Team Role Distribution

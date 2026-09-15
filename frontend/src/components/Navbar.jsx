@@ -83,6 +83,18 @@ export default function Navbar({
             <History className="w-4 h-4" />
             <span className="hidden sm:inline">V2 Logs</span>
           </button>
+          {/* V2 Validation Tab */}
+          <button
+            onClick={() => setActiveTab('validation')}
+            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-medium transition-all ${
+              activeTab === 'validation' 
+                ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 shadow-[0_0_10px_rgba(16,185,129,0.2)]' 
+                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800 border border-transparent'
+            }`}
+          >
+            <ShieldCheck className="w-4 h-4" />
+            <span className="hidden sm:inline">Validation</span>
+          </button>
         </div>
       </div>
 

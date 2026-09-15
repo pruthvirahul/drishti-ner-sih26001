@@ -15,6 +15,7 @@ from app.api.routes_simulation import router as simulation_router
 from app.api.routes_incidents import router as incident_router
 from app.api.routes_telecom_and_whatsapp import router as telecom_whatsapp_router
 from app.api.routes_timeline import router as timeline_router
+from app.api.routes_v2_validation import router as v2_validation_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -39,6 +40,7 @@ app.include_router(simulation_router, prefix=settings.API_PREFIX)
 app.include_router(incident_router, prefix=settings.API_PREFIX)
 app.include_router(telecom_whatsapp_router, prefix=settings.API_PREFIX)
 app.include_router(timeline_router, prefix=settings.API_PREFIX)
+app.include_router(v2_validation_router, prefix=settings.API_PREFIX)
 
 @app.get("/")
 def root_status():
