@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { api } from '../services/api';
 import { Activity, AlertTriangle, CloudRain, ShieldAlert, Truck, Cpu, Clock } from 'lucide-react';
 
 export default function TimelineLogView() {
